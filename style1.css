@@ -1,0 +1,68 @@
+body
+ {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.container
+ {
+  padding: 10px;
+  background-color: white;
+}
+
+input[type=text], input[type=password] 
+{
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+}
+
+input[type=text]:focus, input[type=password]:focus
+ {
+  background-color: off white;
+  outline: none;
+}
+
+#reg,p
+ {
+      margin-bottom: 70px;
+      text-align: center;
+ }
+hr 
+{
+  border: 1px solid #cccccc;
+  margin-bottom: 25px;
+}
+
+.registrationbtn 
+{
+  background-color: blue;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover 
+{
+  opacity: 1;
+}
+
+a 
+{
+  color: light blue;
+}
+
+.signin 
+{
+  background-color: white;
+  text-align: center;
+}
